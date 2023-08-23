@@ -1,0 +1,148 @@
+.wrapper {
+  background: transparent;
+  background: rgba(254, 254, 254, 0.5);
+  border: 1px #291d08;
+  border-style: dashed;
+  border-width: thin;
+  margin: 0 auto;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 809px;
+  height: 500px;
+  font-family: "Rajdhani", sans-serif;
+  color: #27296d;
+}
+.col-4 {
+  height: 500px;
+}
+.temp-id:hover {
+  opacity: 50%;
+  border-color: #a393eb;
+  border-radius: 50px;
+  transition: all 200ms ease-in-out;
+  size: 20px;
+  cursor: context-menu;
+}
+.temp {
+  margin: 30px 50px -35px 50px;
+}
+.temp-id {
+  font-size: 100px;
+}
+.description-id {
+  margin-top: 10px;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+.details div {
+  font-size: 20px;
+}
+.temp .units {
+  position: relative;
+  font-size: 30px;
+  top: -190px;
+  left: 100px;
+  color: #5e63b6;
+  text-decoration: none;
+}
+
+.details {
+  margin: 10px 50px 35px 50px;
+  font-size: 24px;
+  line-height: 40px;
+}
+.location-btn {
+  margin-left: 45px;
+}
+.current-location {
+  width: 130px;
+  height: 35px;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: #5e63b6;
+  border: none;
+  font-size: 10px;
+}
+.current-location:hover {
+  opacity: 0.85;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 700ms ease-in-out;
+}
+
+.weather-icon {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 110px;
+  text-align: center;
+}
+.weather-icon:hover {
+  opacity: 50%;
+  transition: all 500ms ease-in-out;
+}
+.search {
+  position: relative;
+  margin: 30px 15px 10px -25px;
+}
+.search-form {
+  width: 200px;
+  position: relative;
+  margin: 30px 15px 10px 50px;
+}
+.search-btn   {
+  border-radius: 50px;
+  padding: 5px;
+  background-color: transparent;
+  margin-top: 20px;
+  display: block;
+  margin: 0 auto;
+}
+.search-btn:hover   {
+  opacity: 50%;
+  border-color: #a393eb;
+  border-radius: 50px;
+  transition: all 200ms ease-in-out;
+  size: 20px;
+}
+.search-form form {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 30px;
+}
+input {
+  text-align: center;
+}
+/* .forecasts {
+  margin: 50px 50px -35px 50px;
+  line-height: 20px;
+} */
+/* #forcast-icon {
+  width: 60px;
+}
+#forcast-icon:hover {
+  opacity: 50%;
+  transition: all 500ms ease-in-out;
+} */
+/* .forcast-date,
+.forecasts {
+  font-size: 15px;
+}
+.weather-forcast-temp-min {
+  opacity: 0.5;
+}
+.weather-forcast-temp-min,
+.weather-forcast-temp-max {
+  font-size: 15px;
+}
+.forecasts {
+  font-weight: 400;
+  margin-left: 70px;
+  opacity: 0.8;
+}
+.temp .active {
+  cursor: default;
+  color: #27296d;
+} */
